@@ -1,0 +1,21 @@
+{
+    "name": "topcms/topcms",
+	"type": "project",
+    "authors": [
+        {
+            "name": "Joker.liu",
+            "email": "joker.liu@admincms.top"
+        }
+    ],
+    "require": {
+		"topcms/framework": "dev-master"
+	},
+	"autoload": {
+        "psr-4": {
+            "App\\": "app\\Http"
+        }
+    },
+    "extra": {
+        "framework-path": "system"
+    }
+}
