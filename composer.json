@@ -9,16 +9,13 @@
         }
     ],
     "require": {
-		"php": ">=5.6.0",
-        "topcms/installer": "dev-master"
-    },
-    "require-dev": {
-        "symfony/finder": "3.*"
+	"php": ">=5.6.0",
+	"symfony/finder": "3.*",
+        "topcms/installer": "v1.0.0"
     },
     "autoload": {
         "psr-4": {
             "topcms\\": "src"
-        },
-		"files":[ "helper.php" ]
+        }
     }
 }
