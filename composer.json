@@ -1,0 +1,24 @@
+{
+    "name": "topcms/framework",
+    "description": "The new topcms framework",
+    "type": "topcms-framework",
+    "authors": [
+        {
+            "name": "joker",
+            "email": "joker.liu@admincms.top"
+        }
+    ],
+    "require": {
+		"php": ">=5.6.0",
+        "topcms/installer": "dev-master"
+    },
+    "require-dev": {
+        "symfony/finder": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "topcms\\": "src"
+        },
+		"files":[ "helper.php" ]
+    }
+}
